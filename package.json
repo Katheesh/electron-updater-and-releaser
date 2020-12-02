@@ -13,12 +13,13 @@
     "build": "electron-builder build --win --publish never",
     "deploy": "electron-builder build --win --publish always"
   },
-  "author": "",
+  "author": "S.Katheeskumar",
   "license": "ISC",
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "electron": "^11.0.3",
-    "electron-builder": "^22.9.1",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
     "electron-updater": "^4.3.5"
   }
 }
