@@ -15,11 +15,10 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "electron": "^5.0.1",
-    "electron-builder": "^20.40.2"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "electron-updater": "^4.0.6"
+    "electron": "^11.0.3",
+    "electron-builder": "^22.9.1",
+    "electron-updater": "^4.3.5"
   }
 }
