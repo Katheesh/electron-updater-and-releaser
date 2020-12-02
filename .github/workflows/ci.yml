@@ -29,6 +29,8 @@ jobs:
 
       - name: Run build
         run: npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Moving build to artifacts directory
         run: bash ./scripts/move-files.sh $OS_NAME
