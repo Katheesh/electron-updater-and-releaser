@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-and-releaser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "main.js",
   "repository": {
