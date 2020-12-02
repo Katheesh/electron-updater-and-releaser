@@ -30,12 +30,7 @@ jobs:
       - name: Run build
         run: npm run deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Moving build to artifacts directory
-        run: bash ./scripts/move-files.sh $OS_NAME
-        env:
-          OS_NAME: window
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Upload window build artifacts
         uses: actions/upload-artifact@v1
