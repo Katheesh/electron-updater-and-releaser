@@ -19,7 +19,7 @@ printf "\n"
 
 # moving content to artifacts directory
 echo Moving content to $directoryName directory
-mv -v ./dist/-$1* ./dist/$directoryName
+mv -v ./dist/eleactron-$1* ./dist/$directoryName
 
 # list artifacts directory content
 bash ./scripts/print-directory-content.sh $directoryName ./dist/$directoryName
